@@ -1,0 +1,246 @@
+{
+    "_comment": {
+        "说明": "长江支流数据配置文件",
+        "T-XX": "支流ID，格式为T-XX",
+        "used": "是否被使用，true表示未使用，false表示已使用",
+        "name": "支流名称",
+        "file": "存放支流数据Excel文件的目录",
+        "main": "连接的主干道分段ID，格式为M-XX",
+        "type": "支流类型：0表示流入长江，1表示从长江流出，前加方向表示流出方式，例如E0表示在支流东侧流入长江，W1表示在支流西侧流出长江",
+        "drct": "支流走向：NS表示南北走向，WE表示东西走向"
+    },
+    "T-01": {
+        "name": "白茆河",
+        "used": true,
+        "area": 0.87,
+        "file": "./datasets/ais/白茆河/",
+        "main": "M-13",
+        "type": "N0",
+        "drct": "NS"
+    },
+    "T-02": {
+        "name": "常浒河",
+        "used": true,
+        "area": 0.95,
+        "file": "./datasets/ais/常浒河/",
+        "main": "M-12",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-03": {
+        "name": "川杨河",
+        "used": true,
+        "area": 1.57,
+        "file": "./datasets/ais/川杨河/",
+        "main": "M-17",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-04": {
+        "name": "大治河",
+        "used": true,
+        "area": 5.48,
+        "file": "./datasets/ais/大治河/",
+        "main": "M-17",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-05": {
+        "name": "黄浦江",
+        "used": true,
+        "area": 16.42,
+        "file": "./datasets/ais/黄浦江/",
+        "main": "M-16",
+        "type": "N0",
+        "drct": "NS"
+    },
+    "T-06": {
+        "name": "夹江",
+        "used": true,
+        "area": 12.56,
+        "file": "./datasets/ais/夹江/",
+        "main": "M-07",
+        "type": "S0",
+        "drct": "NS"
+    },
+    "T-07": {
+        "name": "焦港",
+        "used": true,
+        "area": 0.84,
+        "file": "./datasets/ais/焦港/",
+        "main": "M-10",
+        "type": "S0",
+        "drct": "NS"
+    },
+    "T-08": {
+        "name": "京杭运河（北）",
+        "used": true,
+        "area": 1.85,
+        "file": "./datasets/ais/京杭运河（北）/",
+        "main": "M-07",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-09": {
+        "name": "京杭运河（南）",
+        "used": true,
+        "area": 1.47,
+        "file": "./datasets/ais/京杭运河（南）/",
+        "main": "M-07",
+        "type": "W0",
+        "drct": "WE"
+    },
+    "T-10": {
+        "name": "九圩港",
+        "used": true,
+        "area": 2.06,
+        "file": "./datasets/ais/九圩港/",
+        "main": "M-11",
+        "type": "S0",
+        "drct": "NS"
+    },
+    "T-11": {
+        "name": "练祁河",
+        "used": true,
+        "area": 0.75,
+        "file": "./datasets/ais/练祁河/",
+        "main": "M-16",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-12": {
+        "name": "六干河",
+        "used": true,
+        "area": 0.76,
+        "file": "./datasets/ais/六干河/",
+        "main": "M-12",
+        "type": "N0",
+        "drct": "NS"
+    },
+    "T-13": {
+        "name": "娄江-浏河",
+        "used": true,
+        "area": 1.89,
+        "file": "./datasets/ais/娄江-浏河/",
+        "main": "M-15",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-14": {
+        "name": "南横河",
+        "used": true,
+        "area": 0.71,
+        "file": "./datasets/ais/南横河/",
+        "main": "M-10",
+        "type": "N0",
+        "drct": "NS"
+    },
+    "T-15": {
+        "name": "七干河",
+        "used": true,
+        "area": 1.62,
+        "file": "./datasets/ais/七干河/",
+        "main": "M-12",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-16": {
+        "name": "秦淮新河",
+        "used": true,
+        "area": 1.44,
+        "file": "./datasets/ais/秦淮新河/",
+        "main": "M-04",
+        "type": "W0",
+        "drct": "WE"
+    },
+    "T-17": {
+        "name": "十一圩港",
+        "used": true,
+        "area": 0.39,
+        "file": "./datasets/ais/十一圩港/",
+        "main": "M-10",
+        "type": "N0",
+        "drct": "NS"
+    },
+    "T-18": {
+        "name": "通吕运河",
+        "used": true,
+        "area": 3.72,
+        "file": "./datasets/ais/通吕运河/",
+        "main": "M-12",
+        "type": "W0",
+        "drct": "WE"
+    },
+    "T-19": {
+        "name": "团结河",
+        "used": false,
+        "area": 0.44,
+        "file": "./datasets/ais/团结河/",
+        "main": "M-13",
+        "type": "S0",
+        "drct": "NS"
+    },
+    "T-20": {
+        "name": "新沟河",
+        "used": true,
+        "area": 1.17,
+        "file": "./datasets/ais/新沟河/",
+        "main": "M-08, M-20",
+        "type": "N0",
+        "drct": "0/1"
+    },
+    "T-21": {
+        "name": "新江海河",
+        "used": true,
+        "area": 1.26,
+        "file": "./datasets/ais/新江海河/",
+        "main": "M-13",
+        "type": "S0",
+        "drct": "NS"
+    },
+    "T-22": {
+        "name": "新夏港",
+        "used": true,
+        "area": 0.76,
+        "file": "./datasets/ais/新夏港/",
+        "main": "M-08, M-20",
+        "type": "N0",
+        "drct": "NS"
+    },
+    "T-23": {
+        "name": "杨林塘",
+        "used": true,
+        "area": 1.15,
+        "file": "./datasets/ais/杨林塘/",
+        "main": "M-15",
+        "type": "E0",
+        "drct": "WE"
+    },
+    "T-24": {
+        "name": "引江河",
+        "used": true,
+        "area": 1.62,
+        "file": "./datasets/ais/引江河/",
+        "main": "M-07",
+        "type": "S0",
+        "drct": "NS"
+    },
+    "T-25": {
+        "name": "裕溪河",
+        "used": true,
+        "area": 5.19,
+        "file": "./datasets/ais/裕溪河/",
+        "main": "M-02",
+        "type": "N0",
+        "drct": "NS"
+    },
+    "T-26": {
+        "name": "赵家沟",
+        "used": true,
+        "area": 0.93,
+        "file": "./datasets/ais/赵家沟/",
+        "main": "M-17",
+        "type": "E0",
+        "drct": "WE"
+    }
+}
